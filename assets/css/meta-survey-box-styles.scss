@@ -1,0 +1,267 @@
+#meta-survey-box-survey-style,#meta-survey-box-survey-custom-css,#meta-survey-box-survey-header,#meta-survey-box-survey-donation-section,#meta-survey-box-survey-in-honour,#meta-survey-box-survey-information,#meta-survey-box-survey-payment,#meta-survey-box-survey-thankyou,#meta-survey-box-survey-analytics,#wpseo_meta,#meta-survey-box-survey-background,#meta-survey-box-survey-css,#meta-survey-box-survey-custom-field, #normal-sortables{
+  display:none;
+}
+
+#meta-survey-box-survey-id, #meta-survey-box-survey-questions{
+  display:block;
+}
+
+#div-banlist-postbox{
+  @media only screen and (min-width:768px){
+
+  }
+}
+
+.margin-bottom-0{
+  margin-bottom:0!important;
+}
+
+.margin-bottom-1x{
+  margin-bottom:0.5rem;
+}
+.margin-bottom-2x{
+  margin-bottom:1rem;
+}
+.margin-bottom-3x{
+  margin-bottom:1.5rem!important;
+}
+.wplo_ban_table{
+  display:flex;
+  flex-direction: column;
+
+  .wplo_ban_div{
+    display:flex;
+    flex-direction: row;
+
+    .wplo_ban_div_ip{
+      flex: 1 0 25%;
+
+    }
+    .wplo_ban_div_browser{
+      flex: 1 0 25%;
+
+    }
+    .wplo_ban_div_time{
+      flex: 1 0 25%;
+
+    }
+    .wplo_ban_div_remove{
+      flex: 1 0 25%;
+    }
+  }
+}
+
+
+#poststuff{
+  iframe{
+    height:200px!important;
+  }
+}
+.survey-tab-active{
+  background-color: #fff;
+  color: #444;
+}
+#shortcode-box{
+  line-height: 24px;
+  min-height: 25px;
+  margin-top: 5px;
+  padding: 0 10px;
+  color: #666;
+}
+
+#shortcode-link, #shortcode-link-php{
+  @media only screen and (min-width:768px){
+    width:350px;
+  }
+  @media only screen and (max-width:767px){
+    width:100%;
+    display:block;
+  }
+}
+
+#post-body-content{
+  margin-bottom:0!important;
+}
+
+.wp-admin select{
+  height: auto;
+}
+
+.meta-survey-radio-cls{
+  padding:10px;
+}
+.df-row-container{
+  display:flex;
+  align-items: center;
+  padding-bottom:10px;
+  @media only screen and (max-width:767px){
+    flex-direction: column;
+  }
+}
+div.df-row-container{
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 1em 0;
+  @media only screen and (max-width:767px){
+    flex-direction: column;
+  }
+}
+.df-row-title-setup{
+  font-size:1.2rem;
+  flex: 0 0 30%;
+}
+.df-row-input-setup{
+  font-size:1.1rem;
+  flex: 1 0 70%;
+  @media only screen and (max-width:767px){
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+span.wplo-survey-number-block{
+  font-size: 1.1rem;
+  margin-right: 4px;
+}
+
+.description-below{
+  padding-bottom:0;
+  margin-bottom:5px!important;
+}
+.description-box{
+  margin-top:0;
+  margin-bottom:20px;
+  padding-bottom:0;
+}
+.description-ol{
+  margin-top:0!important;
+}
+
+.df-row-title{
+  font-size:1.2rem;
+  flex: 0 0 30%;
+}
+.df-row-input{
+  font-size:1.1rem;
+  flex-wrap:wrap;
+  display:flex;
+  width:100%;
+  @media only screen and (max-width:767px){
+    flex-direction: column;
+    display: flex;
+    select{
+      width:100%;
+      option{
+        width:100%;
+      }
+    }
+  }
+  @media only screen and (min-width:768px) {
+    input,select,option{
+      flex:0 1 auto;
+    }
+    select {
+      width:150px;
+      option {
+        width:150px;
+      }
+    }
+  }
+}
+
+
+.bg-image-div{
+  text-align: center;
+  display:inline-flex;
+  flex-direction:column;
+  .df-row-title{
+    margin-bottom:0.5rem;
+  }
+  label{
+    margin-bottom:0.5rem;
+    font-size:1.1rem;
+  }
+  input{
+    display:inline-block;
+    margin-bottom:0.5rem;
+  }
+  img{
+    margin-bottom:0.5rem;
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.bg-image-div-tile{
+  @media only screen and (min-width:768px){
+    text-align: left;
+  }
+  @media only screen and (max-width:767px){
+    text-align:center;
+  }
+  img{
+    width:150px;
+    height:auto;
+    max-width:100%;
+
+  }
+}
+
+.df-image-card{
+  display:inline-flex;
+  flex-direction:column;
+  padding:1rem;
+  img{
+    height:auto;
+    width:100%;
+    max-width:300px;
+    margin-bottom:0.5rem;
+  }
+  .df-row-title{
+    margin-bottom:0.5rem;
+  }
+  input{
+    margin-bottom:0.5rem;
+  }
+  .df-card-title{
+    font-size:1.4rem;
+    margin-bottom:0.5rem;
+    text-align: center;
+    max-width: 298px;
+  }
+}
+
+#meta-survey-custom-css{
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+
+.wplo-dl-select-div{
+  flex-wrap:wrap;
+  div{
+    @media only screen and (max-width:767px){
+      width:100%;
+      text-align: center;
+      margin-top:10px;
+      select{
+        width:100%;
+      }
+    }
+    @media only screen and (min-width:768px){
+      width:25%;
+    }
+  }
+  label{
+  }
+  select{
+  }
+}
+
+.wplo-head-title{
+  font-size: 1.2rem;
+  margin-bottom:0;
+  margin-top:0;
+}

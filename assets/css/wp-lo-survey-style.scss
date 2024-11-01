@@ -1,0 +1,457 @@
+/** Define base vars **/
+
+$df-base-font-size: 18px;
+$df-paragraph-font: 'Montserrat', sans-serif;
+$df-header-font: 'Arvo', Serif;
+$df-input-fields-font-size:1.6rem;
+$df-primary-color: #6b4890;
+$df-primary-lighten: #885cb7;
+$df-primary-darken: #543871;
+
+
+/** Define base commonly used classes **/
+
+#svy-wrapper{
+
+  .checkthis{
+    display:none!important;
+  }
+
+  a.button{
+    text-decoration: none;
+  }
+
+  @media (max-width: 575px) {
+    .btn-w-100-mobile {
+      width: 100%; } }
+
+
+  //Paragraph Section
+
+}
+
+
+//@import "bootstrapcustom.css";
+
+//Basic styling for resetting commonly styled elements
+.bootstrapsvyiso{
+  .row{
+    margin: inherit;
+    max-width: inherit;
+    width: inherit;
+  }
+  form {
+    label{
+      text-transform:none;
+    }
+  }
+  label{
+    font-weight:normal;
+  }
+  .mt-75px-mobile{
+    @media only screen and (max-width:768px){
+      margin-top:75px!important;
+    }
+  }
+
+
+
+  //Custom Browser Fixes
+
+  /* for chrome */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;}
+
+
+  /* for mozilla */
+  input[type=number] {-moz-appearance: textfield;}
+
+
+  //Mozilla
+  //@-moz-document url-prefix() {
+  //  input[type=number]::-webkit-outer-spin-button,
+  //  input[type=number]::-webkit-inner-spin-button {
+  //    -webkit-appearance: none;
+  //    margin: 0;
+  //  }
+  //
+  //  input[type=number] {
+  //    -moz-appearance:textfield;
+  //  }
+  //}
+  input[type=number] {
+    -moz-appearance:textfield;
+  }
+
+  .panel-df-input-padding{
+      .wplo-panel-body{
+        .row{
+          .input-margins-forms{
+            @media only screen and (max-width:767px){
+              padding:0!important;
+            }
+          }
+          @media only screen and (min-width:768px){
+            div.input-margins-forms:first-of-type{
+              padding-left:0!important;
+              padding-right:8px!important;
+            }
+            div.input-margins-forms:nth-of-type(2){
+              padding-right:0!important;
+              padding-left:8px!important;
+            }
+          }
+        }
+      }
+    }
+
+}
+
+
+:root {
+  --wplo-survey-input-padding-x: .5rem;
+  --wplo-survey-input-padding-y: .35rem; }
+
+/** Form styling and basic sizing**/
+#svy-wrapper {
+  max-width: 800px;
+  width: 100%;
+
+  //Define base sizes
+  font-size: $df-base-font-size;
+
+
+  //Padding
+  .donation-form-content {
+    padding: 0;
+  }
+
+  .introParagraph {
+    padding: 15px 20px;
+  }
+
+
+  form.wp-svy-form-style {
+
+
+    input.invalid, select.invalid, textarea.invalid {
+      border-color: red !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+    label.error{
+      color:red!important;
+      position: relative !important;
+    }
+
+    input[type='checkbox'].invalid,input[type='radio'].invalid{
+      outline: 1px solid red!important;
+    }
+
+    input, select, textarea {
+      width: 100%;
+    }
+
+    .form-control {
+
+    }
+
+    select {
+      padding: var(--wplo-survey-input-padding-y) var(--wplo-survey-input-padding-x);
+      overflow: hidden;
+      padding-right: 34px;
+    }
+
+    //Input Groups
+
+
+    //Prepend styling starts
+    .input-group > .input-group-prepend {
+      flex: 0 0 46px;
+      width: 46px;
+    }
+
+    .input-group .input-group-text {
+      width: 100%;
+      justify-content: center;
+    }
+
+    //Prepend styling ends
+
+
+    //input type styling
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style select {
+      padding: 0.375rem 0.75rem;
+      margin: 0;
+      height: 54px !important;
+      border-radius: 0;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style input, .wp-lo-svy-wrapper form.wp-svy-form-style textarea, .wp-lo-svy-wrapper form.wp-svy-form-style select {
+      font-size: 2.6rem !important;
+      width: 100%;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style button#survey-submit, .wp-lo-svy-wrapper form.wp-svy-form-style input[type=submit] {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style input {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style button#survey-submit:focus {
+      outline: -webkit-focus-ring-color none;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style button#survey-submit {
+      width: 100%;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style .input-margins-forms {
+      margin-bottom: 1rem;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style div.checkbox {
+      font-size: 2.6rem;
+    }
+
+    .wp-lo-svy-wrapper form.wp-svy-form-style div.checkbox label {
+      margin-bottom: 0 !important;
+    }
+
+    .wp-lo-svy-wrapper div.validation_error {
+      color: #dc3545 !important;
+      font-size: 2.4rem !important;
+      font-weight: normal !important;
+      border: none !important;
+      text-align: left !important;
+    }
+
+
+    /** Last Page **/
+
+    .input-margins-forms {
+      label {
+        margin-bottom: 0.25rem !important;
+      }
+    }
+
+
+    //Custom shrinking label overlay
+    .form-control {
+      height: auto;
+    }
+
+    .form-label-group-float, .form-label-group-float-search {
+      position: relative;
+      margin-bottom: 1rem;
+    }
+
+    .form-label-group-float > input,
+    .form-label-group-float > label,
+    .form-label-group-float-search > input,
+    .form-label-group-float-search > label {
+      padding: var(--wplo-survey-input-padding-y) var(--wplo-survey-input-padding-x);
+    }
+
+    .form-label-group-float > label, .form-label-group-float-search > label {
+      position: absolute;
+      top: 0 !important;
+      left: 0;
+      display: block;
+      width: auto;
+      margin-bottom: 0;
+      /* Override default `<label>` margin */
+      line-height: 1.5;
+      color: #495057;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: all .1s ease-in-out;
+      cursor:text;
+    }
+
+    .form-label-group-float input::-webkit-input-placeholder, .form-label-group-float-search input::-webkit-input-placeholder {
+      color: transparent !important;
+    }
+
+    .form-label-group-float input:-ms-input-placeholder, .form-label-group-float-search input:-ms-input-placeholder {
+      color: transparent !important;
+    }
+
+    .form-label-group-float input::-ms-input-placeholder, .form-label-group-float-search input::-ms-input-placeholder {
+      color: transparent !important;
+    }
+
+    .form-label-group-float input::-moz-placeholder, .form-label-group-float-search input::-moz-placeholder {
+      color: transparent !important;
+    }
+
+    .form-label-group-float input::placeholder, .form-label-group-float-search input::placeholder {
+      color: transparent !important;
+    }
+
+    .form-label-group-float input:not(:placeholder-shown), .form-label-group-float-search input:not(:placeholder-shown) {
+      padding-top: calc(var(--wplo-survey-input-padding-y) + var(--wplo-survey-input-padding-y) * (2 / 3));
+      padding-bottom: calc(var(--wplo-survey-input-padding-y) / 3);
+    }
+
+    .form-label-group-float input:not(:placeholder-shown) ~ label {
+      padding-top: calc(var(--wplo-survey-input-padding-y) / 3);
+      padding-bottom: calc(var(--wplo-survey-input-padding-y) / 3);
+      font-size: 12px;
+      color: #777;
+    }
+
+    .input-group label {
+      z-index: 100;
+      left: 43px !important;
+      @media only screen and (max-width: 339px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    .input-group input {
+      width: 1% !important;
+      border-left: none !important;
+      height: 54px;
+    }
+
+    .input-group select {
+      width: 1% !important;
+      border-right: none !important;
+      height: 54px;
+    }
+
+    .input-group .input-group-prepend .input-group-text {
+      background: $df-primary-color;
+      border-color: $df-primary-color;
+    }
+
+    .input-group .input-group-prepend .input-group-text i {
+      color: white;
+    }
+
+    .input-group .input-group-append .input-group-text {
+      background: $df-primary-color;
+      border-color: $df-primary-color;
+    }
+
+    .input-group .input-group-append .input-group-text i {
+      color: white;
+    }
+
+
+    input[type=email], input[type=url], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], select, textarea {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+
+    /* Fallback for Edge
+    -------------------------------------------------- */
+    @supports (-ms-ime-align: auto) {
+      .form-label-group-float > label {
+        display: none;
+      }
+
+      .form-label-group-float input::-ms-input-placeholder {
+        color: #495057 !important;
+      }
+
+      .form-label-group-float input {
+        height: 54px;
+      }
+    }
+    /* Fallback for IE
+    -------------------------------------------------- */
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .form-label-group-float > label {
+        display: none;
+      }
+      .form-label-group-float input:-ms-input-placeholder {
+        color: #495057 !important;
+      }
+      .form-label-group-float input {
+        height: 54px;
+      }
+      .wp-svy-form-style #ecard_message {
+        height: 200px;
+      }
+    }
+      //Custom shrinking label overlay ends
+
+
+    }
+
+    /* IE specific fixes for multitude of issues with css support */
+    @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+      label {
+        display: inline-block;
+      }
+      label img {
+        pointer-events: none;
+      }
+    }
+
+    /** Modal Customizations **/
+    .modal {
+      text-align: center;
+    }
+
+    //Modal Centering
+    //@media screen and (min-width: 768px) {
+    .modal:before {
+      display: inline-block;
+      content: " ";
+      height: 100%;
+    }
+
+    //}
+    .modal-dialog {
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+
+    //BS4 Overrides
+    select.form-control:not([size]):not([multiple]) {
+      height: auto !important;
+    }
+
+    .input-group-text {
+      padding: 0;
+    }
+
+    ol, ul, dl {
+      margin-top: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    //Normalizing CSS
+    .checkbox, .radio {
+      position: relative;
+      display: block;
+    }
+
+    //2019 Overrides
+    h1:not(.site-title):before, h2:before {
+      background: none !important;
+      content: none !important;
+      height: 0 !important;
+      margin: 0 !important;
+      width: 0 !important;
+    }
+
+  }

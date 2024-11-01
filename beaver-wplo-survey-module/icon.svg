@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<title>edge_logo</title>
+	<defs>
+		<image  width="12" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAMAAACOLiwjAAAAAXNSR0IB2cksfwAAASBQTFRFAAAAfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvfhdvgxp0jyF/oCqPqS+XqS+XqS+XgBdvjB57oSuQqS+XqS+XyRhwxxhwvCF+rC2TqS+XyRhwyRhwyRhwxRt0uiOCriuRqS+XqS+XqS+XyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhwyRhw+VMq3QAAAGB0Uk5TAAEhfLnIqy8Igen/tAJj+aIk2eujiXYiZ/U7jQOKzQRe/vdZCdb+7KiRfiZg+P3/pQFS9/6vHc7//vPPvaAqXv72WAmH0YzJA2vxMSnl7KKFZAwCbpYIgOiqPZW+yLI842p/YwAAAK5JREFUeJw1zGlTAVAUxvFHiDpZk6Xs+y77CYUQWSJ7Kb7/t3Bn3Pt79fxnzhwAmiutTi9cGwDjzS1d3MFktshNVtjsRPeOB8HpgpvI8wjpiUjvVeEj8gdUBEMUjkRluGIUTyRTQjoDTTaXL1w8o1gqV2RUUavzS6PZEl7f0O5w970nH/SZB2rjg3k4UvHJPJ6omM6Yv+YL4XuJ1ZqlzgbY7vayfsTh6vfw9y8cT2d6YR7zR+s9ggAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="4" y="0" />
+</svg>

@@ -1,0 +1,239 @@
+/** Define base vars **/
+/** Define base commonly used classes **/
+#svy-wrapper .checkthis {
+  display: none !important; }
+
+#svy-wrapper a.button {
+  text-decoration: none; }
+
+@media (max-width: 575px) {
+  #svy-wrapper .btn-w-100-mobile {
+    width: 100%; } }
+
+.bootstrapsvyiso {
+  /* for chrome */
+  /* for mozilla */ }
+  .bootstrapsvyiso .row {
+    margin: inherit;
+    max-width: inherit;
+    width: inherit; }
+  .bootstrapsvyiso form label {
+    text-transform: none; }
+  .bootstrapsvyiso label {
+    font-weight: normal; }
+  @media only screen and (max-width: 768px) {
+    .bootstrapsvyiso .mt-75px-mobile {
+      margin-top: 75px !important; } }
+  .bootstrapsvyiso input[type=number]::-webkit-inner-spin-button,
+  .bootstrapsvyiso input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .bootstrapsvyiso input[type=number] {
+    -moz-appearance: textfield; }
+  .bootstrapsvyiso input[type=number] {
+    -moz-appearance: textfield; }
+  @media only screen and (max-width: 767px) {
+    .bootstrapsvyiso .panel-df-input-padding .wplo-panel-body .row .input-margins-forms {
+      padding: 0 !important; } }
+  @media only screen and (min-width: 768px) {
+    .bootstrapsvyiso .panel-df-input-padding .wplo-panel-body .row div.input-margins-forms:first-of-type {
+      padding-left: 0 !important;
+      padding-right: 8px !important; }
+    .bootstrapsvyiso .panel-df-input-padding .wplo-panel-body .row div.input-margins-forms:nth-of-type(2) {
+      padding-right: 0 !important;
+      padding-left: 8px !important; } }
+
+:root {
+  --wplo-survey-input-padding-x: .5rem;
+  --wplo-survey-input-padding-y: .35rem; }
+
+/** Form styling and basic sizing**/
+#svy-wrapper {
+  max-width: 800px;
+  width: 100%;
+  font-size: 18px;
+  /* IE specific fixes for multitude of issues with css support */
+  /** Modal Customizations **/ }
+  #svy-wrapper .donation-form-content {
+    padding: 0; }
+  #svy-wrapper .introParagraph {
+    padding: 15px 20px; }
+  #svy-wrapper form.wp-svy-form-style {
+    /** Last Page **/
+    /* Fallback for Edge
+    -------------------------------------------------- */
+    /* Fallback for IE
+    -------------------------------------------------- */ }
+    #svy-wrapper form.wp-svy-form-style input.invalid, #svy-wrapper form.wp-svy-form-style select.invalid, #svy-wrapper form.wp-svy-form-style textarea.invalid {
+      border-color: red !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important; }
+    #svy-wrapper form.wp-svy-form-style label.error {
+      color: red !important;
+      position: relative !important; }
+    #svy-wrapper form.wp-svy-form-style input[type='checkbox'].invalid, #svy-wrapper form.wp-svy-form-style input[type='radio'].invalid {
+      outline: 1px solid red !important; }
+    #svy-wrapper form.wp-svy-form-style input, #svy-wrapper form.wp-svy-form-style select, #svy-wrapper form.wp-svy-form-style textarea {
+      width: 100%; }
+    #svy-wrapper form.wp-svy-form-style select {
+      padding: var(--wplo-survey-input-padding-y) var(--wplo-survey-input-padding-x);
+      overflow: hidden;
+      padding-right: 34px; }
+    #svy-wrapper form.wp-svy-form-style .input-group > .input-group-prepend {
+      flex: 0 0 46px;
+      width: 46px; }
+    #svy-wrapper form.wp-svy-form-style .input-group .input-group-text {
+      width: 100%;
+      justify-content: center; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style select {
+      padding: 0.375rem 0.75rem;
+      margin: 0;
+      height: 54px !important;
+      border-radius: 0; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style input, #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style textarea, #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style select {
+      font-size: 2.6rem !important;
+      width: 100%; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style button#survey-submit, #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style input[type=submit] {
+      text-align: center;
+      display: block;
+      margin: 0 auto; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style input {
+      text-align: left;
+      display: block;
+      margin: 0 auto; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style button#survey-submit:focus {
+      outline: -webkit-focus-ring-color none; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style button#survey-submit {
+      width: 100%; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style .input-margins-forms {
+      margin-bottom: 1rem; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style div.checkbox {
+      font-size: 2.6rem; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper form.wp-svy-form-style div.checkbox label {
+      margin-bottom: 0 !important; }
+    #svy-wrapper form.wp-svy-form-style .wp-lo-svy-wrapper div.validation_error {
+      color: #dc3545 !important;
+      font-size: 2.4rem !important;
+      font-weight: normal !important;
+      border: none !important;
+      text-align: left !important; }
+    #svy-wrapper form.wp-svy-form-style .input-margins-forms label {
+      margin-bottom: 0.25rem !important; }
+    #svy-wrapper form.wp-svy-form-style .form-control {
+      height: auto; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search {
+      position: relative;
+      margin-bottom: 1rem; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float > input,
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float > label,
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float-search > input,
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float-search > label {
+      padding: var(--wplo-survey-input-padding-y) var(--wplo-survey-input-padding-x); }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float > label, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search > label {
+      position: absolute;
+      top: 0 !important;
+      left: 0;
+      display: block;
+      width: auto;
+      margin-bottom: 0;
+      /* Override default `<label>` margin */
+      line-height: 1.5;
+      color: #495057;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: all .1s ease-in-out;
+      cursor: text; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input::-webkit-input-placeholder, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input::-webkit-input-placeholder {
+      color: transparent !important; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input:-ms-input-placeholder, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input:-ms-input-placeholder {
+      color: transparent !important; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input::-ms-input-placeholder, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input::-ms-input-placeholder {
+      color: transparent !important; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input::-moz-placeholder, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input::-moz-placeholder {
+      color: transparent !important; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input::placeholder, #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input::placeholder {
+      color: transparent !important; }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input:not(:placeholder-shown), #svy-wrapper form.wp-svy-form-style .form-label-group-float-search input:not(:placeholder-shown) {
+      padding-top: calc(var(--wplo-survey-input-padding-y) + var(--wplo-survey-input-padding-y) * (2 / 3));
+      padding-bottom: calc(var(--wplo-survey-input-padding-y) / 3); }
+    #svy-wrapper form.wp-svy-form-style .form-label-group-float input:not(:placeholder-shown) ~ label {
+      padding-top: calc(var(--wplo-survey-input-padding-y) / 3);
+      padding-bottom: calc(var(--wplo-survey-input-padding-y) / 3);
+      font-size: 12px;
+      color: #777; }
+    #svy-wrapper form.wp-svy-form-style .input-group label {
+      z-index: 100;
+      left: 43px !important; }
+      @media only screen and (max-width: 339px) {
+        #svy-wrapper form.wp-svy-form-style .input-group label {
+          font-size: 1.4rem; } }
+    #svy-wrapper form.wp-svy-form-style .input-group input {
+      width: 1% !important;
+      border-left: none !important;
+      height: 54px; }
+    #svy-wrapper form.wp-svy-form-style .input-group select {
+      width: 1% !important;
+      border-right: none !important;
+      height: 54px; }
+    #svy-wrapper form.wp-svy-form-style .input-group .input-group-prepend .input-group-text {
+      background: #6b4890;
+      border-color: #6b4890; }
+    #svy-wrapper form.wp-svy-form-style .input-group .input-group-prepend .input-group-text i {
+      color: white; }
+    #svy-wrapper form.wp-svy-form-style .input-group .input-group-append .input-group-text {
+      background: #6b4890;
+      border-color: #6b4890; }
+    #svy-wrapper form.wp-svy-form-style .input-group .input-group-append .input-group-text i {
+      color: white; }
+    #svy-wrapper form.wp-svy-form-style input[type=email], #svy-wrapper form.wp-svy-form-style input[type=url], #svy-wrapper form.wp-svy-form-style input[type=number], #svy-wrapper form.wp-svy-form-style input[type=password], #svy-wrapper form.wp-svy-form-style input[type=search], #svy-wrapper form.wp-svy-form-style input[type=tel], #svy-wrapper form.wp-svy-form-style input[type=text], #svy-wrapper form.wp-svy-form-style select, #svy-wrapper form.wp-svy-form-style textarea {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
+    @supports (-ms-ime-align: auto) {
+      #svy-wrapper form.wp-svy-form-style .form-label-group-float > label {
+        display: none; }
+      #svy-wrapper form.wp-svy-form-style .form-label-group-float input::-ms-input-placeholder {
+        color: #495057 !important; }
+      #svy-wrapper form.wp-svy-form-style .form-label-group-float input {
+        height: 54px; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      #svy-wrapper form.wp-svy-form-style .form-label-group-float > label {
+        display: none; }
+      #svy-wrapper form.wp-svy-form-style .form-label-group-float input:-ms-input-placeholder {
+        color: #495057 !important; }
+      #svy-wrapper form.wp-svy-form-style .form-label-group-float input {
+        height: 54px; }
+      #svy-wrapper form.wp-svy-form-style .wp-svy-form-style #ecard_message {
+        height: 200px; } }
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+    #svy-wrapper label {
+      display: inline-block; }
+    #svy-wrapper label img {
+      pointer-events: none; } }
+  #svy-wrapper .modal {
+    text-align: center; }
+  #svy-wrapper .modal:before {
+    display: inline-block;
+    content: " ";
+    height: 100%; }
+  #svy-wrapper .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle; }
+  #svy-wrapper select.form-control:not([size]):not([multiple]) {
+    height: auto !important; }
+  #svy-wrapper .input-group-text {
+    padding: 0; }
+  #svy-wrapper ol, #svy-wrapper ul, #svy-wrapper dl {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important; }
+  #svy-wrapper .checkbox, #svy-wrapper .radio {
+    position: relative;
+    display: block; }
+  #svy-wrapper h1:not(.site-title):before, #svy-wrapper h2:before {
+    background: none !important;
+    content: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    width: 0 !important; }
